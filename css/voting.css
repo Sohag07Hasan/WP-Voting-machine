@@ -1,0 +1,53 @@
+body.single div#useraction img {
+	/*background-color:red;*/
+	width:100px;
+	height:100px;
+}
+
+body.single div#useraction div{
+	float:left;
+	width:180px;
+	margin:3px 15px 3px 5px;
+}
+body.single div#useraction p.name{
+	font-size:25px;
+	text-decoration:none;
+	font-family:serif,"Times New Roman", Times;
+	
+	color:#DD6464;
+}
+
+
+body.single div#useraction p.abt_des{
+	
+	font-style:italic;
+}
+
+body.single div#useraction p.about{
+	font:"Times New Roman";
+	text-decoration:underline;
+}
+
+body.single div#useraction div.formhidden{
+height:100px;
+z-index:0;
+color: blue;
+overflow:hidden;
+visibility:hidden;
+}
+
+body.single div#useraction div.formshow{
+background-color:#F6E8E8;
+
+z-index:3;
+visibility:shown;
+position:absolute;
+text-align:center;
+margin: 50 5 5 50;
+overflow:shown;
+
+}
+
+body.single div.afterclick{
+	background-color:#765C5C;
+}
